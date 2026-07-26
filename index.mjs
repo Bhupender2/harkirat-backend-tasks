@@ -8,3 +8,5 @@ console.log(chalk.red("helllo world"));
 // when i installed express it also downloads some other packages as well . which express was dependent upon
 
 //x.y.z major.minor.patch this is for version
+
+//"chalk": "^5.6.2", // here ^ this means install any version less than 6.0.0 which is compatible here u feel me (beacuse agar new version latest h toh humein vo chahiye taaki jab koi install kare ya jab kisi ne node modules delete kardia toh new version download hoga )
