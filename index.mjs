@@ -11,4 +11,4 @@ console.log(chalk.red("helllo world"));
 
 //"chalk": "^5.6.2", // here ^(caret) this means install any version less than 6.0.0 which is compatible here u feel me (beacuse agar new version latest h toh humein vo chahiye taaki jab koi install kare ya jab kisi ne node modules delete kardia toh new version download hoga )
 
-// to make sure everyone gets the same version the package.lock.json has been added so we can lock the version we once install (coz if we dont it will install any comoptatible version which might break compatibilty with other thing as u see if someone else dowloads your proect or some other developer also code with you)
+// to make sure everyone gets the same version the package.lock.json has been added so we can lock the version we once install (coz if we dont it will install any comoptatible version which might break compatibilty with other thing as u see if someone else dowloads your proect or some other developer also code with you) if 100 devs are working all get the same lock files and same version WHICH MAINTAINS CONSISTENCY
