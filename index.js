@@ -4,11 +4,15 @@ function main(fileName) {
   fs.readFile(fileName, "utf-8", function (err, data) {
     // Hello world
     let total = 0;
-    for (let i=0; i< data.length  i++){
+    console.log("total : ", data);
+    for (let i = 0; i < data.length; i++) {
       // hello world
-      
+      if (data[i] === " ") {
+        total++;
+      }
     }
+    console.log("habibi", total + 1);
   });
 }
 
-main();
+main("a.txt");
