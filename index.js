@@ -1,4 +1,4 @@
-const fs = require("fs"); //
+const fs = require("fs"); // its a built in module to read and write the files
 
 function main(fileName) {
   fs.readFile(fileName, "utf-8", function (err, data) {
