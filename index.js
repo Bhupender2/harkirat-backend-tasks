@@ -17,3 +17,5 @@ function main(fileName) {
 }
 
 main("a.txt");
+
+// cat is basically a command that reads one or more files and prints their contents to the terminal . it can also concatanate mutiple files into a single output
