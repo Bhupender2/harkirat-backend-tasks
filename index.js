@@ -21,3 +21,5 @@ function main(fileName) {
 main(process.argv[2]);
 
 // cat is basically a command that reads one or more files and prints their contents to the terminal . it can also concatanate mutiple files into a single output
+
+// commander library basically lets you create cli quickly and give helpers function out of the box -h
